@@ -1,6 +1,7 @@
 require('dotenv').config();
 const http = require('http');
 require('index.js');
+require('deploy_commands.js')
 
 http
   .createServer((req, res) => {
