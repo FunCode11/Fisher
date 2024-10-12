@@ -1,6 +1,6 @@
 require('dotenv').config();
 const http = require('http');
-require('./sever.js')
+require('./index.js')
 
 const port = process.env.PORT || 3000;
 const host = '0.0.0.0'; // Important for external access
