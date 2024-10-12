@@ -1,7 +1,6 @@
 require('dotenv').config();
 const http = require('http');
-require('./src/register-commands.js');
-require('./src/quiz-bot.js');
+require('index.js');
 
 http
   .createServer((req, res) => {
