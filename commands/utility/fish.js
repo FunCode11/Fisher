@@ -6,6 +6,6 @@ module.exports = {
 		.setName('fish')
 		.setDescription('Fishes!'),
 	async execute(interaction) {
-		await interaction.reply("You fished" + math.random(0, 2183) + "fishes!");
+		await interaction.reply("You fished " + math.floor(math.random(0, 2183)) + " fishes!");
 	},
 };
