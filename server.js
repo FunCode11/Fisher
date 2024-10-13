@@ -2,6 +2,7 @@ require('dotenv').config();
 const http = require('http');
 require('./index.js')
 require('./deploy_commands.js')
+console.log(`Running Node.js version: ${process.version}`);
 
 const port = process.env.PORT || 3000;
 const host = '0.0.0.0'; // Important for external access
